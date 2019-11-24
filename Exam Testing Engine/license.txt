@@ -1,0 +1,106 @@
+EXAM TESTING ENGINE END USER LICENSE AGREEMENT
+======================================================================
+
+This End-User License Agreement ("EULA") is a legal agreement  between 
+you and Vumingo, please read it carefully.
+
+YOU  AGREE  TO BE  BOUND  BY THE TERMS OF THIS EULA BY INSTALLING THIS 
+PRODUCT OR PURCHASING ITS  LICENSE CODE. IF YOU DO NOT AGREE  WITH ANY 
+OF THE FOLLOWING  TERMS AND CONDITIONS, DO  NOT INSTALL THE  SOFTWARE. 
+USING  ANY  PART  OF  THE  SOFTWARE  OR  PURCHASING  ITS  LICENSE CODE 
+INDICATES THAT YOU ACCEPT THESE TERMS.
+
+The Software  is protected by  applicable national  copyright laws and 
+international  copyright  treaties,  as  well  as  other  intellectual 
+property laws and treaties. The Software is licensed, not sold. Global 
+Simulators Ltd retains all the rights, which are not expressly granted 
+to You according to the present License Agreement.
+
+GENERAL INFORMATION
+----------------------------------------------------------------------
+
+Exam Testing Engine  software is  available in  two versions: Exam 
+Testing Engine Basic, which includes ETE Player, and 
+Exam Testing Engine Pro, which includes ETE Player and ETE Designer s
+oftware. 
+
+DEMO VERSION
+----------------------------------------------------------------------
+
+The demo version of  Exam Testing Engine may  be used for demo purposes 
+at the user's  own risk only. It allows  for the limited functionality 
+of the Exam Testing Engine software.  In the demo version, ETE Designer 
+allows for creation of the ETE files without the option of saving them. 
+The  demo version  of ETE Player  allows to  play  the  first 5 (five) 
+questions of a ETE file only. To  access the full functionality of the 
+Exam Testing Engine software, the user needs to upgrade to the licensed 
+version. 
+
+The demo version may be freely  distributed, provided the distribution 
+package is not modified. No person or company may charge a fee for the 
+distribution of Exam Testing Engine.
+
+LICENSED VERSION
+----------------------------------------------------------------------
+
+Once  registered,  the   user  is  granted  a  limited,  non-exclusive, 
+non-transferable,  non-assignable license to use Exam Testing Engine on 
+2 computers  only per  each license  purchased, for  any legal purpose. 
+The registered Exam Testing Engine software may not be rented or leased.
+Exam Testing Engine  license versions  vary in their type and duration. 
+Depending on the  user’s preference, 1 month, 3, 6 or 12-month license 
+for  Exam Testing Engine  Basic  or  Exam Testing Engine  Pro can be 
+purchased.   Unless   otherwise   selected,   the   license   will  be 
+automatically renewed at the end of the licensing period, and the user 
+will be  charged accordingly.  To cancel the  automated renewal option, 
+you need to disable this feature in your Vumingo account settings. The 
+software  won’t be working after  the end of the license period unless 
+it has been renewed. 
+
+TERMS OF USE
+----------------------------------------------------------------------
+
+During  your  purchase  of Exam Testing Engine,  your  personal Vumingo 
+account will  be created.  Per each account,  user will be able to use 
+the software on  2 (two) computers only.  The account can only be used 
+by the individual  (or entity) it is registered  for and should not be 
+shared with  other parties.  Any distribution of  the account details/ 
+unlicensed  Exam Testing Engine  software usage by  other parties shall 
+result in  immediate and  automatic termination of  the rights granted 
+in this EULA.
+
+There are  no additional license fees,  apart  from  the cost  of the 
+license,  associated with  the creation  and  distribution   of  Exam 
+Testing Engine exam files.    Legally registered owners may use their 
+copies of Exam Testing Engine to produce exam files and to distribute 
+those files free of any additional royalties.
+
+You may not copy, emulate, clone, rent, lease, sell, modify, decompile, 
+disassemble,  otherwise  reverse  engineer,  or transfer  the licensed 
+program, or any subset of the licensed program.  Any such unauthorized 
+use  shall  result  in  immediate  and  automatic  termination of this 
+license and may result in criminal and/or civil prosecution.
+
+DISCLAIMER OF WARRANTY:  THE SOFTWARE IS PROVIDED  TO YOU AT NO CHARGE. 
+YOU AGREE THAT VUMINGO HAS MADE NO EXPRESS WARRANTIES, ORAL OR WRITTEN, 
+TO YOU REGARDING THE PRODUCTS AND THAT THE PRODUCTS ARE BEING PROVIDED 
+TO YOU "AS IS" WITHOUT WARRANTY OF ANY KIND. VUMINGO DISCLAIMS ANY AND 
+ALL  OTHER  WARRANTIES,   WHETHER  EXPRESSED,  IMPLIED,  OR  STATUTORY, 
+INCLUDING,   BUT   WITHOUT   LIMITATION,  THE  IMPLIED  WARRANTIES  OF 
+NONINFRINGEMENT OF  THIRD PARTY RIGHTS,  MERCHANTABILITY,  AND FITNESS 
+FOR A  PARTICULAR PURPOSE.  VUMINGO SHALL  NOT BE  LIABLE FOR INDIRECT, 
+INCIDENTAL,   SPECIAL,   COVER,  RELIANCE,  OR  CONSEQUENTIAL  DAMAGES 
+(INCLUDING,  BUT NOT LIMITED TO,  LOSS OF ANTICIPATED PROFIT)  ARISING 
+FROM ANY CAUSE UNDER OR RELATED TO THIS AGREEMENT.
+
+The terms of this license are subject  to change in future versions of 
+Exam Testing Engine.  Learners Ltd reserves the right to  amend these 
+terms at any time without prior notice. If you do not agree with 
+the terms of this license,  you must remove  Exam Testing Engine files 
+from your storage devices and cease to use the product.
+
+Thank you for using Exam Testing Engine!
+
+Learners Ltd.
+Web:	https://www.vumingo.com
+E-mail:	support@vumingo.com

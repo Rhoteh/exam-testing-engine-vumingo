@@ -1,0 +1,121 @@
+Standard Exam Demonstration
+
+This is a standard exam sample. It just demonstrates the question types which you can create using Visual CertExam Designer.
+
+1. You are a software developer for a sporting goods company. You are creating an ASP.NET application for the marketing department. The application provides access to sales and marketing data. The data is stored in a Microsoft SQL Server 2000 database named MarketingDB on a server named MrktSrv.
+
+You want to add a page to your ASP.NET application in order to display sales data from MarketingDB. You use a SqlConnection object to connect to the database.
+
+You need to create a connection string to MarketingDB. Which string should you use? (Select the best choice.)
+
+A. "Data Source=MarketingDB;Initial Catalog=MrktSrv;Integrated Security=SSP1"
+B. "Data Source=MrktSrv;Initial Catalog=MarketingDB;Integrated Security=SSP1"
+C. "Provider=SQLOLEDB.1;Data Source=MrktSrv;Initial Catalog=MarketingDB;Integrated Security=SSP1"
+D. "Provider=MSDASQL;Data Source=MrktSrv;Initial Catalog=MarketingDB;Integrated Security=SSP1"
+
+Answer: A
+
+To connect to a Microsoft SQL Server 2000 database using the SqlConnection object, in the connection string you must specify the server name using the DataSource parameter, the database name using the Initial Catalog parameter, and the authentication method using the Integrated Security parameter.
+
+It is not necessary to specify the Provider parameter because the SqlConnection object can be used only to establish a connection to Microsoft SQL Server databases.
+
+Reference:
+
+Microsoft .NET Framework SDK Documentation, "Reference", "Class Library", "System.Data.SqlClient", "SqlConnection Class", "Properties", "ConnectionString Property [C#]".
+
+2. You are the administrator of the corporate Web server connected to the network based on the Windows 2000 domain. Windows 2000 Server and Internet Information Server 5.0 are installed on the Web server. Another employee administrates the network.
+
+You need to permit the network administrator to run Windows Update on the Web server for system files updating. You want to give him as few privileges as possible.
+
+To which local group you should add the network administrator? (Select the best choice.)
+
+A. Administrators
+B. Backup Operators
+C. Power Users
+D. Replicator
+
+Answer: A
+
+To update your system files using Windows Update, you must be logged on as an administrator or a member of the Administrators group in order to complete this procedure. Therefore, the user must be a member of the Administrators local group in order to update system files using Windows Update.
+
+Reference:
+
+Windows 2000 Advanced Server Help, Index, "Windows Update".
+
+Windows 2000 Advanced Server Help, Search, "Windows Update".
+
+3. You create a user control named MenuBar that is defined in a file named MenuBar.ascx. In order to test the user control you create an ASP.NET page and place it in the same folder as the MenuBar.ascx file. You use the following line of code to include the user control in the ASP.NET page.
+
+<MyControls:MenuBar runat="server"/>
+
+To make the user control available on the page you need to declare it using the Register directive.
+
+Which declaration should you use? (Select the best choice.)
+
+A. <%@ Register Namespace="MyControls" Control="MenuBar" Src="MenuBar.ascx" %>
+B. <%@ Register Namespace="MyControls" Tagname="MenuBar" Src="MenuBar.ascx" %>
+C. <%@ Register Tagprefix="MyControls" Tagname="MenuBar" Src="MenuBar.ascx" %>
+D. <%@ Register Control="MyControls.MenuBar" Src="MenuBar.ascx" %>
+
+Answer: C
+
+Including the @ Register directive in a page or user control allows you to lay out custom server controls or user controls using declarative custom server control syntax.
+
+Use the @ Register directive in the following situations.
+- To declaratively add a custom ASP.NET server control to a page or user control.
+- To add a declarative user control to a page or user control.
+
+For declarative user controls, use the tagname, tagprefix, and src attributes. The first two are always used together as a colon-separated pair (tagprefix:tagname) when you declare the control in the page. The src attribute value can be either a relative or absolute path to the user control source file from your application's root directory. For ease of use, it is recommended you use a relative path.
+
+When including custom server controls that you have compiled into a .dll for use with your application, use the tagprefix with the Assembly and Namespace attributes. If you do not include the Namespace attribute, or if you assign an empty string to it, a parser error will occur.
+
+Reference:
+
+Microsoft .NET Framework SDK Documentation, "Reference", "ASP.NET Syntax", "Web Forms Syntax", "Directive Syntax",  "@ Register".
+
+4. You use Microsoft Visual C# .NET to create a Windows-based application. The application includes a form named OrderForm for entering order information. You place controls on the form so it does not support resizing.
+
+You must ensure that users cannot resize, minimize, or maximize OrderForm. Which three actions should you take? (Each answer presents a part of the solution. Choose three.)
+
+A. Set OrderForm.MinimizeBox to False.
+B. Set OrderForm.Maximize to False.
+C. Set OrderForm.ControlBox to False.
+D. Set OrderForm.ImeMode to Disabled.
+E. Set OrderForm.WindowState to Maximized.
+F. Set OrderForm.FormBorderStyle to FixedSingle.
+G. Set OrderForm.ResizeBox to False.
+
+Answer: A, B and F
+
+For two requirements presented in this scenario, the form class has the corresponding properties. To disable the window maximization you should set the Maximize property to False, to disable the window minimization you should set the MinimizeBox property to False. To perform the third requirement (to disable the form resizing), just set the FormBorderStyle property to FixedSingle.
+
+Reference:
+
+Microsoft Visual Studio .NET Documentation, "Visual Basic and Visual C# Concepts", "Changing the Borders of Windows Forms".
+
+Microsoft .NET Framework Documentation, ".NET Framework Class Library", "Form.MinimizeBox Property [C#]".
+
+Microsoft .NET Framework Documentation, ".NET Framework Class Library", "Form.MaximizeBox Property [C#]".
+
+5. You are a database developer for a building materials manufacturing company. Your company uses Microsoft SQL Server 2000 as a database server. You are creating a database for the company’s human resources department.
+
+To maintain data integrity, you need to provide automatic row deletion in dependent tables when the rows of the primary key table are deleted.
+
+What should you do? (Select the best choice.)
+
+A. Create the DELETE trigger, which will delete the related rows in the dependent tables.
+B. Write the stored procedure which periodically checks the corresponding rows in the dependent tables, and if necessary deletes the rows in the dependent tables.
+C. Set the Cascade Delete Related Records option when creating the relationship.
+D. Manipulate the data only using specially created stored procedures which will maintain data integrity.
+
+Answer: C
+
+The cascade updating and deleting is supported in Microsoft SQL Server 2000 especially to maintain data integrity. So the simplest and therefore the best method is to use the Cascade Delete Related Records option, thus SQL Server takes responsibility for performing all actions necessary to maintain data integrity.
+
+The ways described in the other choices also allow you to maintain data integrity, however, a great deal of actions for their implementation are required.
+
+Reference:
+
+SQL Server Books Online, "Visual Database Tools", "Dialog Boxes", "Database Designer Dialog Boxes", "Create Relationship Dialog Box".
+
+SQL Server Books Online, "Visual Database Tools", "Properties Pages", "Database Designer and Table Designer Properties Pages", "Relationships Property Page".

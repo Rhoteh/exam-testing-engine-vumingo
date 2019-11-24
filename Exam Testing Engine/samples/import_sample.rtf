@@ -1,0 +1,124 @@
+{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}{\f2\fnil Courier New;}{\f3\fswiss\fprq2\fcharset0 Arial;}{\f4\fswiss\fcharset204{\*\fname Arial;}Arial CYR;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\lang1024\b\f0\fs20 Standard Exam Demonstration\par
+\b0\par
+This is a standard exam sample. It just demonstrates the question types which you can create using Visual CertExam Designer.\par
+\par
+\lang1033\f1 1. \lang1024\f0 You are a software developer for a sporting goods company. You are creating an ASP.NET application for the marketing department. The application provides access to sales and marketing data.\b  \b0 The data is stored in a Microsoft SQL Server 2000 database named \b MarketingDB\b0  on a server named \b MrktSrv\b0 .\par
+\par
+You want to add a page to your ASP.NET application in order to display sales data from \b MarketingDB\b0 . You use a \b SqlConnection \b0 object to connect to the database.\par
+\par
+\pard You need to create a connection string to \b MarketingDB\b0 . Which string should you use? (Select the best choice.)\par
+\par
+\lang1033\f1 A. \lang1024\f2 "Data Source=MarketingDB;Initial Catalog=MrktSrv;Integrated Security=SSP1"\par
+\lang1033\f3 B. \f2 "Data Source=MrktSrv;Initial Catalog=MarketingDB;Integrated Security=SSP1"\par
+\f3 C. \f2 "Provider=SQLOLEDB.1;Data Source=MrktSrv;Initial Catalog=MarketingDB;Integrated Security=SSP1"\par
+\f3 D. \f2 "Provider=MSDASQL;Data Source=MrktSrv;Initial Catalog=MarketingDB;Integrated Security=SSP1"\par
+\f3\par
+Answer: A\par
+\lang1049\f4\par
+\pard\lang1024\f0 To connect to a Microsoft SQL Server 2000 database using the \b SqlConnection\b0  object, in the connection string you must specify the server name using the \b DataSource \b0 parameter, the database name using the \b Initial Catalog\b0  parameter, and the authentication method using the \b Integrated Security\b0  parameter.\par
+\par
+It is not necessary to specify the \b Provider\b0  parameter because the \b SqlConnection\b0  object can be used only to establish a connection to Microsoft SQL Server databases.\par
+\par
+Reference:\par
+\par
+\pard Microsoft .NET Framework SDK Documentation, "Reference", "Class Library", "System.Data.SqlClient", "SqlConnection Class", "Properties", "ConnectionString Property [C#]".\par
+\par
+\pard\lang1033\f1 2. \lang1024\f0 You are the administrator of the corporate Web server connected to the network based on the Windows 2000 domain. Windows 2000 Server and Internet Information Server 5.0 are installed on the Web server. Another employee administrates the network.\par
+\par
+You need to permit the network administrator to run Windows Update on the Web server for system files updating. You want to give him as few privileges as possible.\par
+\par
+\pard To which local group you should add the network administrator? (Select the best choice.)\par
+\par
+\lang1033\f1 A. \lang1024\b\f0 Administrators\lang1033\b0\f1\par
+B. \lang1024\b\f0 Backup Operators\lang1033\b0\f1\par
+C. \lang1024\b\f0 Power Users\lang1033\b0\f1\par
+D. \lang1024\b\f0 Replicator\lang1033\b0\f1\par
+\par
+Answer: A\par
+\par
+\pard\lang1024\f0 To update your system files using Windows Update, you must be logged on as an administrator or a member of the \b Administrators\b0  group in order to complete this procedure. Therefore, the user must be a member of the \b Administrators\b0  local group in order to update system files using Windows Update.\par
+\par
+Reference:\par
+\par
+Windows 2000 Advanced Server Help, Index, "Windows Update".\par
+\par
+\pard Windows 2000 Advanced Server Help, Search, "Windows Update".\par
+\par
+\pard\lang1033\f1 3. \lang1024\f0 You create a user control named \b MenuBar\b0  that is defined in a file named \b MenuBar.ascx\b0 . In order to test the user control you create an ASP.NET page and place it in the same folder as the \b MenuBar.ascx\b0  file. You use the following line of code to include the user control in the ASP.NET page.\par
+\par
+\f2 <MyControls:MenuBar runat="server"/>\par
+\par
+\f0 To make the user control available on the page you need to declare it using the \b Register \b0 directive.\par
+\f2\par
+\pard\f0 Which declaration should you use? (Select the best choice.)\par
+\par
+\lang1033\f1 A. \lang1024\f2 <%@ Register Namespace="MyControls" Control="MenuBar" Src="MenuBar.ascx" %>\lang1033\f1\par
+B. \lang1024\f2 <%@ Register Namespace="MyControls" Tagname="MenuBar" Src="MenuBar.ascx" %>\lang1033\f1\par
+C. \lang1024\f2 <%@ Register Tagprefix="MyControls" Tagname="MenuBar" Src="MenuBar.ascx" %>\lang1033\f1\par
+D. \lang1024\f2 <%@ Register Control="MyControls.MenuBar" Src="MenuBar.ascx" %>\par
+\lang1033\f3\par
+Answer: C\par
+\par
+\pard\lang1024\f0 Including the \b @ Register\b0  directive in a page or user control allows you to lay out custom server controls or user controls using declarative custom server control syntax.\par
+\par
+Use the \b @ Register\b0  directive in the following situations.\par
+\pard\fi-300\li300\tx300\lang1033\f1 - \lang1024\f0 To declaratively add a custom ASP.NET server control to a page or user control.\fs24\par
+\lang1033\f1\fs20 - \lang1024\f0 To add a declarative user control to a page or user control.\fs24\par
+\pard\fs20\par
+For declarative user controls, use the \b tagname\b0 , \b tagprefix\b0 , and \b src\b0  attributes. The first two are always used together as a colon-separated pair (\b tagprefix:tagname\b0 ) when you declare the control in the page. The \b src\b0  attribute value can be either a relative or absolute path to the user control source file from your application's root directory. For ease of use, it is recommended you use a relative path.\par
+\par
+When including custom server controls that you have compiled into a \b .dll\b0  for use with your application, use the \b tagprefix\b0  with the \b Assembly\b0  and \b Namespace\b0  attributes. If you do not include the \b Namespace\b0  attribute, or if you assign an empty string to it, a parser error will occur.\par
+\par
+Reference:\par
+\par
+\pard Microsoft .NET Framework SDK Documentation, "Reference", "ASP.NET Syntax", "Web Forms Syntax", "Directive Syntax",  "@ Register".\par
+\par
+\pard\lang1033\f1 4. \lang1024\f0 You use Microsoft Visual C# .NET to create a Windows-based application.\b  \b0 The application includes a form named \b OrderForm\b0  for entering order information. You place controls on the form so it does not support resizing.\par
+\par
+\pard You must ensure that users cannot resize, minimize, or maximize \b OrderForm\b0 . Which three actions should you take? (Each answer presents a part of the solution. Choose three.)\par
+\par
+\lang1033\f1 A. \lang1024\f0 Set \b OrderForm.MinimizeBox\b0  to \b False\b0 .\lang1033\f1\par
+B. \lang1024\f0 Set \b OrderForm.Maximize\b0  to \b False\b0 .\lang1033\f1\par
+C. \lang1024\f0 Set \b OrderForm.ControlBox\b0  to \b False\b0 .\lang1033\f1\par
+D. \lang1024\f0 Set \b OrderForm.ImeMode\b0  to \b Disabled\b0 .\lang1033\f1\par
+E. \lang1024\f0 Set \b OrderForm.WindowState\b0  to \b Maximized\b0 .\lang1033\f1\par
+F. \lang1024\f0 Set \b OrderForm.FormBorderStyle\b0  to \b FixedSingle\b0 .\lang1033\f1\par
+G. \lang1024\f0 Set \b OrderForm.ResizeBox\b0  to \b False\b0 .\lang1033\f1\par
+\par
+Answer: A, B and F\par
+\par
+\pard\lang1024\f0 For two requirements presented in this scenario, the form class has the corresponding properties. To disable the window maximization you should set the \b Maximize\b0  property to \b False\b0 , to disable the window minimization you should set the \b MinimizeBox\b0  property to \b False\b0 . To perform the third requirement (to disable the form resizing), just set the \b FormBorderStyle\b0  property to \b FixedSingle\b0 .\par
+\par
+Reference:\par
+\par
+Microsoft Visual Studio .NET Documentation, "Visual Basic and Visual C# Concepts", "Changing the Borders of Windows Forms".\par
+\par
+Microsoft .NET Framework Documentation, ".NET Framework Class Library", "Form.MinimizeBox Property [C#]".\par
+\par
+\pard Microsoft .NET Framework Documentation, ".NET Framework Class Library", "Form.MaximizeBox Property [C#]".\par
+\par
+\pard\lang1033\f1 5. \lang1024\f0 You are a database developer for a building materials manufacturing company. Your company uses Microsoft SQL Server 2000 as a database server. You are creating a database for the company\rquote s human resources department.\par
+\par
+To maintain data integrity, you need to provide automatic row deletion in dependent tables when the rows of the primary key table are deleted.\par
+\par
+\pard What should you do? (Select the best choice.)\par
+\par
+\lang1033\f1 A. \lang1024\f0 Create the DELETE trigger, which will delete the related rows in the dependent tables.\lang1033\f1\par
+B. \lang1024\f0 Write the stored procedure which periodically checks the corresponding rows in the dependent tables, and if necessary deletes the rows in the dependent tables.\lang1033\f1\par
+C. \lang1024\f0 Set the \b Cascade Delete Related Records \b0 option when creating the relationship.\lang1033\f1\par
+D. \lang1024\f0 Manipulate the data only using specially created stored procedures which will maintain data integrity.\par
+\par
+\lang1033\f1 Answer: C\par
+\par
+\pard\lang1024\f0 The cascade updating and deleting is supported in Microsoft SQL Server 2000 especially to maintain data integrity. So the simplest and therefore the best method is to use the \b Cascade Delete Related Records \b0 option, thus SQL Server takes responsibility for performing all actions necessary to maintain data integrity.\par
+\par
+The ways described in the other choices also allow you to maintain data integrity, however, a great deal of actions for their implementation are required.\par
+\par
+Reference:\par
+\par
+SQL Server Books Online, "Visual Database Tools", "Dialog Boxes", "Database Designer Dialog Boxes", "Create Relationship Dialog Box".\par
+\par
+\pard SQL Server Books Online, "Visual Database Tools", "Properties Pages", "Database Designer and Table Designer Properties Pages", "Relationships Property Page".\lang1049\f4\par
+}
+ 
